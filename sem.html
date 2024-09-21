@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Difference Calculator</title>
+    <link rel="stylesheet" href="sem.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Date Difference Calculator</h1>
+        <form id="dateForm">
+            <label for="initialDate">Initial Date:</label>
+            <input type="date" id="initialDate" required>
+            <label for="finalDate">Final Date:</label>
+            <input type="date" id="finalDate" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result"></div>
+        <button id="nextPageButton" style="display:none;">Go to Weekday Selection</button>
+    </div>
+    <script src="sem.js"></script>
+</body>
+</html>
