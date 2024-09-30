@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekday Selection</title>
+    <link rel="stylesheet" href="week.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weekday Selection</h1>
+        <form id="weekdayForm">
+            <label><input type="checkbox" name="weekday" value="1"> Monday</label>
+            <label><input type="checkbox" name="weekday" value="2"> Tuesday</label>
+            <label><input type="checkbox" name="weekday" value="3"> Wednesday</label>
+            <label><input type="checkbox" name="weekday" value="4"> Thursday</label>
+            <label><input type="checkbox" name="weekday" value="5"> Friday</label>
+            <label><input type="checkbox" name="weekday" value="6"> Saturday</label>
+            <label><input type="checkbox" name="weekday" value="0"> Sunday</label>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result"></div>
+        <div id="selectedDates"></div>
+    </div>
+    <script src="week.js"></script>
+</body>
+</html>
