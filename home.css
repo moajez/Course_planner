@@ -407,8 +407,8 @@ ul li a:hover{
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
-    position: relative;
+    color: green
+    /* position: relative; */
 }
 
 .content .par{
