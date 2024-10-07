@@ -121,6 +121,7 @@ nav .nav-bar .logo a{
     display: flex;
     align-items: center;
 }
+ /* ye waala */
 
 .darkLight-searchBox .dark-light,
 .darkLight-searchBox .searchToggle{
@@ -131,6 +132,7 @@ nav .nav-bar .logo a{
     justify-content: center;
     margin: 0 5px;
 }
+/* ye waala */
 
 .dark-light i,
 .searchToggle i{
@@ -140,22 +142,23 @@ nav .nav-bar .logo a{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+/* ye waala */
 
 .dark-light i.sun{
     opacity: 0;
     pointer-events: none;
 }
-
+/* ye waala */
 .dark-light.active i.sun{
     opacity: 1;
     pointer-events: auto;
 }
-
+/* ye waala */
 .dark-light.active i.moon{
     opacity: 0;
     pointer-events: none;
 }
-
+/*ye waala*/
 .searchToggle i.cancel{
     opacity: 0;
     pointer-events: none;
@@ -274,7 +277,7 @@ body.dark .search-field i{
     }
 
     .logo-toggle .siderbarClose{
-        color: var(--text-color);
+        /* color: var(--text-color); */
         font-size: 24px;
         cursor: pointer;
     }
@@ -407,8 +410,8 @@ ul li a:hover{
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
-    position: relative;
+    color: green
+    /* position: relative; */
 }
 
 .content .par{
